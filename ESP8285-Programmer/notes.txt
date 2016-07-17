@@ -1,0 +1,6 @@
+
+USB-Serial chips
+
+CP2102  $1.40 Digikey
+FT232RL $4.50 Digikey ($3.50 Seeed)
+CH340   $0.60 Seeed

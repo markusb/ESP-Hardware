@@ -1,0 +1,9 @@
+<h1>ESP-8285 Miniboard</h1>
+<p>Small DIL-size board for an ESP8285 Wifi microcontroller
+<ul>
+<li>DIL size
+<li>Breaks out all IO pins
+<li>Antenna and crystal on board
+<li>Optional rep power and blue tx LED
+<li>No potentially unwanted hardware
+</ul>
