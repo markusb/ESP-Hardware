@@ -1,0 +1,51 @@
+Partlist
+
+Exported from esp8285-miniboard-v1.0.sch at 19.07.16 13:29
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value            Device                          Package              Library             Sheet
+
+0                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+1                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+2                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+3                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+3V3                       TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+4                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+5                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+6                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+7                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+8                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+9                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+10                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+11                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+12                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+13                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+14                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+15                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+16                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+C1       7PF              CERAMIC-7PF-50V-0.5PF-NPO(0603) C0603                Seeed-OPL-Capacitor 1
+C2       10pf             CERAMIC-10PF-50V-5%-NPO(0603)   C0603                Seeed-OPL-Capacitor 1
+C3       10pf             CERAMIC-10PF-50V-5%-NPO(0603)   C0603                Seeed-OPL-Capacitor 1
+C4       100nf            CERAMIC-100NF-50V-10%-X7R(0603) C0603                Seeed-OPL-Capacitor 1
+C5       10UF 6.3V        CERAMIC-10UF-6.3V-20%-X5R(0603) C0603                Seeed-OPL-Capacitor 1
+CH_PU                     TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+D1       RED-0805         SMD-LED-CLEAR-RED(0805)         LED-0805             Seeed-OPL-Diode     1
+D2       CLEAR-BLUE-0805  SMD-LED-CLEAR-BLUE(0805)        LED-0805             Seeed-OPL-Diode     1
+GND                       TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+PROG                      M06SIP                          1X06                 SparkFun            1
+Q1       FA-128           FA-128                          FA-128               crystal             1
+R1       12K              SMD-RES-12K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
+R2       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
+R3       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
+R4       0R               SMD-RES-0R-5%-1/10W(0603)       R0603                Seeed-OPL-Resistor  1
+R5       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
+R6       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
+R7       330R             SMD-RES-330R-1%-1/10W(0603)     R0603                Seeed-OPL-Resistor  1
+R8       330R             SMD-RES-330R-1%-1/10W(0603)     R0603                Seeed-OPL-Resistor  1
+TOUT                      TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+U$1      ESP8285          ESP8285                         QFN-32               Ma-ESP8285          1
+U$3      PCB_ANTENNAAN043 PCB_ANTENNAAN043                PCB_ANTENNA_TI-AN043 Ma-ESP8285          1
+VDDRTC                    TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1

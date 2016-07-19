@@ -1409,24 +1409,31 @@ package type SS</description>
 <sheets>
 <sheet>
 <plain>
-<text x="215.9" y="27.94" size="2.54" layer="97" font="fixed">Programming pinout
-ESP8285 = Serial
-Tx-IO2  = Rx
-Rx      = Tx
-IO0     = DTR
-IO15    = H
-CH_PD   = H
-Reset   = RTS</text>
-<text x="223.52" y="113.538" size="1.4224" layer="97">3.3V</text>
-<text x="223.52" y="110.998" size="1.4224" layer="97">TX</text>
-<text x="223.52" y="108.458" size="1.4224" layer="97">RX</text>
-<text x="223.52" y="105.918" size="1.4224" layer="97">Gpio0</text>
-<text x="223.52" y="103.378" size="1.4224" layer="97">Reset</text>
-<text x="223.52" y="100.838" size="1.4224" layer="97">Gnd</text>
+<text x="15.24" y="10.16" size="2.54" layer="97" font="fixed">Programming pinout
+VDD       = 3.3V via regulator from USB
+USB-Rx    = To ESP board Tx
+USB-Tx    = To ESP board Rx
+Circuit 1 = To ESP board GPIO0
+Circuit 2 = To ESP board Reset
+</text>
+<text x="223.52" y="113.538" size="1.4224" layer="97">To ESP board 3.3V</text>
+<text x="223.52" y="110.998" size="1.4224" layer="97">To ESP board TX</text>
+<text x="223.52" y="108.458" size="1.4224" layer="97">To ESP board RX</text>
+<text x="223.52" y="105.918" size="1.4224" layer="97">To ESP board Gpio0</text>
+<text x="223.52" y="103.378" size="1.4224" layer="97">To ESP board Reset</text>
+<text x="223.52" y="100.838" size="1.4224" layer="97">To ESP board Gnd</text>
 <text x="163.576" y="19.05" size="2.54" layer="97">ESP 8266/85 Programmer</text>
 <text x="163.83" y="6.858" size="1.778" layer="97">Rev 1.0</text>
 <text x="163.576" y="11.43" size="1.9304" layer="97">Markus Bärtschi
 markus@markus.org</text>
+<text x="147.32" y="43.18" size="2.1844" layer="97">Nodemcu programming
+cisrcuit for Reset and GPIO0</text>
+<text x="83.82" y="132.08" size="2.1844" layer="97" rot="R90">Red Power-LED</text>
+<text x="143.002" y="81.28" size="2.1844" layer="97" rot="R90">Blue Tx-LED</text>
+<text x="156.718" y="79.248" size="2.1844" layer="97" rot="R90">Green GPIO0-LED</text>
+<text x="181.356" y="78.232" size="2.1844" layer="97" rot="R90">Yellow Reset-LED</text>
+<text x="204.978" y="81.026" size="2.1844" layer="97" rot="R90">Reset Button</text>
+<text x="223.52" y="129.54" size="2.1844" layer="97" rot="R90">3.3V Jumper</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -1574,13 +1581,13 @@ markus@markus.org</text>
 <attribute name="NAME" x="170.434" y="58.42" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="173.736" y="54.864" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="171.45" y="111.76" smashed="yes">
-<attribute name="NAME" x="167.64" y="113.03" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="167.64" y="109.22" size="1.27" layer="96" ratio="10"/>
+<instance part="R4" gate="G$1" x="171.45" y="109.22" smashed="yes">
+<attribute name="NAME" x="167.64" y="107.442" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="172.974" y="107.442" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R5" gate="G$1" x="171.45" y="109.22" smashed="yes">
-<attribute name="NAME" x="167.64" y="110.49" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="167.64" y="106.68" size="1.27" layer="96" ratio="10"/>
+<instance part="R5" gate="G$1" x="171.45" y="111.76" smashed="yes">
+<attribute name="NAME" x="167.64" y="112.268" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="173.228" y="112.522" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="C3" gate="G$1" x="62.23" y="140.97" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.96" y="137.16" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -1855,13 +1862,13 @@ markus@markus.org</text>
 <net name="N$TX" class="0">
 <segment>
 <wire x1="97.79" y1="85.09" x2="95.25" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="85.09" x2="95.25" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="85.09" x2="95.25" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="95.25" y1="111.76" x2="135.89" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="109.22" x2="135.89" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="135.89" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="101.6" x2="135.89" y2="111.76" width="0.1524" layer="91"/>
-<junction x="135.89" y="111.76"/>
+<wire x1="135.89" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="101.6" x2="135.89" y2="109.22" width="0.1524" layer="91"/>
+<junction x="135.89" y="109.22"/>
 <pinref part="U1" gate="G$1" pin="TXD"/>
 </segment>
 </net>
@@ -1940,25 +1947,11 @@ markus@markus.org</text>
 <junction x="158.75" y="106.68"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="111.76" x2="212.09" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="212.09" y1="109.22" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$RX" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="109.22" x2="92.71" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="109.22" x2="92.71" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="111.76" x2="92.71" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="111.76" x2="92.71" y2="82.55" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="RXD"/>
 <wire x1="92.71" y1="82.55" x2="97.79" y2="82.55" width="0.1524" layer="91"/>
 </segment>
@@ -1989,6 +1982,20 @@ markus@markus.org</text>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="209.55" y1="130.81" x2="209.55" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="111.76" x2="212.09" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="109.22" x2="212.09" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 </nets>

@@ -103,8 +103,8 @@ UsedLibrary="/home/markus/Tools/Eagle/eagle-7.5.0/lbr/seeed/Seeed-OPL-Transistor
 
 [Win_1]
 Type="Control Panel"
-Loc="2092 68 3377 723"
-State=2
+Loc="348 104 1633 759"
+State=1
 Number=0
 
 [Desktop]
