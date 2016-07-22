@@ -1422,8 +1422,7 @@ Circuit 2 = To ESP board Reset
 <text x="223.52" y="105.918" size="1.4224" layer="97">To ESP board Gpio0</text>
 <text x="223.52" y="103.378" size="1.4224" layer="97">To ESP board Reset</text>
 <text x="223.52" y="100.838" size="1.4224" layer="97">To ESP board Gnd</text>
-<text x="163.576" y="19.05" size="2.54" layer="97">ESP 8266/85 Programmer</text>
-<text x="163.83" y="6.858" size="1.778" layer="97">Rev 1.0</text>
+<text x="163.576" y="19.05" size="2.54" layer="97">ESP 8266/8285 Programmer</text>
 <text x="163.576" y="11.43" size="1.9304" layer="97">Markus Bärtschi
 markus@markus.org</text>
 <text x="147.32" y="43.18" size="2.1844" layer="97">Nodemcu programming
@@ -1436,7 +1435,11 @@ cisrcuit for Reset and GPIO0</text>
 <text x="223.52" y="129.54" size="2.1844" layer="97" rot="R90">3.3V Jumper</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.1844" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
+</instance>
 <instance part="+3V2" gate="G$1" x="209.55" y="146.05" smashed="yes">
 <attribute name="VALUE" x="206.756" y="146.812" size="1.778" layer="96"/>
 </instance>

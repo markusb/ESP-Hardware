@@ -1,51 +1,52 @@
 Partlist
 
-Exported from esp8285-miniboard-v1.0.sch at 19.07.16 13:29
+Exported from esp8285-miniboard-v1.0.brd at 22.07.16 12:59
 
 EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
 
 Assembly variant: 
 
-Part     Value            Device                          Package              Library             Sheet
+Part     Value            Package              Library             Position (inch)       Orientation
 
-0                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-1                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-2                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-3                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-3V3                       TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-4                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-5                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-6                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-7                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-8                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-9                         TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-10                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-11                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-12                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-13                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-14                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-15                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-16                        TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-C1       7PF              CERAMIC-7PF-50V-0.5PF-NPO(0603) C0603                Seeed-OPL-Capacitor 1
-C2       10pf             CERAMIC-10PF-50V-5%-NPO(0603)   C0603                Seeed-OPL-Capacitor 1
-C3       10pf             CERAMIC-10PF-50V-5%-NPO(0603)   C0603                Seeed-OPL-Capacitor 1
-C4       100nf            CERAMIC-100NF-50V-10%-X7R(0603) C0603                Seeed-OPL-Capacitor 1
-C5       10UF 6.3V        CERAMIC-10UF-6.3V-20%-X5R(0603) C0603                Seeed-OPL-Capacitor 1
-CH_PU                     TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-D1       RED-0805         SMD-LED-CLEAR-RED(0805)         LED-0805             Seeed-OPL-Diode     1
-D2       CLEAR-BLUE-0805  SMD-LED-CLEAR-BLUE(0805)        LED-0805             Seeed-OPL-Diode     1
-GND                       TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-PROG                      M06SIP                          1X06                 SparkFun            1
-Q1       FA-128           FA-128                          FA-128               crystal             1
-R1       12K              SMD-RES-12K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
-R2       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
-R3       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
-R4       0R               SMD-RES-0R-5%-1/10W(0603)       R0603                Seeed-OPL-Resistor  1
-R5       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
-R6       10K              SMD-RES-10K-1%-1/10W(0603)      R0603                Seeed-OPL-Resistor  1
-R7       330R             SMD-RES-330R-1%-1/10W(0603)     R0603                Seeed-OPL-Resistor  1
-R8       330R             SMD-RES-330R-1%-1/10W(0603)     R0603                Seeed-OPL-Resistor  1
-TOUT                      TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
-U$1      ESP8285          ESP8285                         QFN-32               Ma-ESP8285          1
-U$3      PCB_ANTENNAAN043 PCB_ANTENNAAN043                PCB_ANTENNA_TI-AN043 Ma-ESP8285          1
-VDDRTC                    TESTPIN-1X1-SM                  TESTPIN-HDR1X01      Ma-ESP8285          1
+0                         TESTPIN-HDR1X01      Markus              (0.31 0.5575)         R0
+1                         TESTPIN-HDR1X01      Markus              (1.01 0.0575)         R180
+2                         TESTPIN-HDR1X01      Markus              (0.41 0.5575)         R0
+3                         TESTPIN-HDR1X01      Markus              (0.91 0.0575)         R180
+3V3                       TESTPIN-HDR1X01      Markus              (1.11 0.5575)         R0
+4                         TESTPIN-HDR1X01      Markus              (0.21 0.5575)         R0
+5                         TESTPIN-HDR1X01      Markus              (0.81 0.0575)         R180
+6                         TESTPIN-HDR1X01      Markus              (0.51 0.0575)         R0
+7                         TESTPIN-HDR1X01      Markus              (0.61 0.0575)         R0
+8                         TESTPIN-HDR1X01      Markus              (0.71 0.0575)         R0
+9                         TESTPIN-HDR1X01      Markus              (0.21 0.0575)         R0
+10                        TESTPIN-HDR1X01      Markus              (0.31 0.0575)         R0
+11                        TESTPIN-HDR1X01      Markus              (0.41 0.0575)         R0
+12                        TESTPIN-HDR1X01      Markus              (0.71 0.5575)         R180
+13                        TESTPIN-HDR1X01      Markus              (0.61 0.5575)         R180
+14                        TESTPIN-HDR1X01      Markus              (0.81 0.5575)         R180
+15                        TESTPIN-HDR1X01      Markus              (0.51 0.5575)         R0
+16                        TESTPIN-HDR1X01      Markus              (0.91 0.5575)         R180
+C1       7PF              C0603                Seeed-OPL-Capacitor (1.1075 0.4375)       R270
+C2       10pf             C0603                Seeed-OPL-Capacitor (1.00999988 0.18078433) R270
+C3       10pf             C0603                Seeed-OPL-Capacitor (1.01103556 0.24939333) R270
+C4       100nf            C0603                Seeed-OPL-Capacitor (0.94323216 0.32426784) R90
+C5       10UF 6.3V        C0603                Seeed-OPL-Capacitor (0.205 0.4)           R180
+CH_PU                     TESTPIN-HDR1X01      Markus              (0.425 0.4375)        R0
+D1       RED-0805         LED-0805             Seeed-OPL-Diode     (0.26 0.1825)         R0
+D2       CLEAR-BLUE-0805  LED-0805             Seeed-OPL-Diode     (0.385 0.1825)        R0
+GND                       TESTPIN-HDR1X01      Markus              (1.11 0.0575)         R0
+PROG                      1X06                 SparkFun            (0.06 0.5575)         R270
+Q1       FA-128           FA-128               crystal             (0.9071966 0.20073216) R90
+R1       12K              R0603                Seeed-OPL-Resistor  (0.9425 0.3825)       R270
+R2       10K              R0603                Seeed-OPL-Resistor  (0.335 0.4275)        R270
+R3       10K              R0603                Seeed-OPL-Resistor  (0.335 0.325)         R270
+R4       0R               R0603                Seeed-OPL-Resistor  (1.1075 0.315)        R90
+R5       10K              R0603                Seeed-OPL-Resistor  (1.1075 0.375)        R270
+R6       10K              R0603                Seeed-OPL-Resistor  (0.335 0.375)         R90
+R7       330R             R0603                Seeed-OPL-Resistor  (0.2675 0.2425)       R270
+R8       330R             R0603                Seeed-OPL-Resistor  (0.3775 0.2425)       R90
+R9       10K              R0603                Seeed-OPL-Resistor  (0.335 0.4775)        R270
+TO                        TESTPIN-HDR1X01      Markus              (1.01 0.5575)         R180
+U$1      ESP8285          QFN-32               Ma-ESP8285          (0.66 0.2925)         R315
+U$3      PCB_ANTENNAAN043 PCB_ANTENNA_TI-AN043 Ma-ESP8285          (1.31 0.3325)         R270
+VDDRTC                    TESTPIN-HDR1X01      Markus              (0.8225 0.4525)       R0
